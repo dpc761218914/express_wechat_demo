@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>个人中心</title>
+    <link type="text/css" rel="styleSheet"  href="http://cdn.bootcss.com/weui/0.4.3/style/weui.css" />
+    <link rel="stylesheet" href="https://cdn.bootcss.com/weui/1.1.3/style/weui.min.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/jquery-weui/1.2.1/css/jquery-weui.min.css">
+
+</head>
+<body ontouchstart>
+
+<h1><%= userinfo.nickname %>" 的个人信息"</h1>
+<p><img src='<%= userinfo.headimgurl %>'/></p>
+<p><%= userinfo.city %></p>
+<p>这是超级厉害的微信公众号开发</p>
+
+<p>weui Test</p>
+
+
+<div class="weui-panel weui-panel_access">
+    <div class="weui-panel__hd">图文组合列表</div>
+    <div class="weui-panel__bd">
+        <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
+            <div class="weui-media-box__hd">
+                <img class="weui-media-box__thumb" src="">
+            </div>
+            <div class="weui-media-box__bd">
+                <h4 class="weui-media-box__title">标题一</h4>
+                <p class="weui-media-box__desc">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</p>
+            </div>
+        </a>
+        <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
+            <div class="weui-media-box__hd">
+                <img class="weui-media-box__thumb" src="">
+            </div>
+            <div class="weui-media-box__bd">
+                <h4 class="weui-media-box__title">标题二</h4>
+                <p class="weui-media-box__desc">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</p>
+            </div>
+        </a>
+    </div>
+
+
+
+<a href="javascript:;" class="weui_btn weui_btn_primary">按钮</a>
+
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery-weui/1.2.1/js/jquery-weui.min.js"></script>
+
+</body>
+
+</html>
